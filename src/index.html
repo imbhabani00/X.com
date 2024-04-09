@@ -1,0 +1,454 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body class="bg-black text-white">
+    <div class="container mx-auto">
+        <div class="flex flex-col md:flex-row">
+            <div class="w-full md:w-[20%] ml-5">
+                <div class=" logo w-[15%] mt-3  invert">
+                    <img src="../images/x.png" alt="Description of the image">
+                </div>
+                <div class="sidebar mt-5">
+                    <ul class="flex flex-col text-2xl space-y-4 font-bold w-1/2 ">
+                        <li
+                            class="flex justify-start items-center gap-3 w-fit hover:bg-gray-800 hover:cursor-pointer hover:rounded-full">
+                            <span class="material-symbols-outlined ">home</span>Home
+                        </li>
+                        <li
+                            class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
+                            <span class="material-symbols-outlined ">search</span>Explore
+                        </li>
+                        <li
+                            class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
+                            <span class="material-symbols-outlined ">notifications</span>Notification
+                        </li>
+                        <li
+                            class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
+                            <span class="material-symbols-outlined ">mail</span>Message
+                        </li>
+                        <li
+                            class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
+                            <span class="material-symbols-outlined ">pen_size_2</span>Grok
+                        </li>
+                        <li
+                            class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
+                            <span class="material-symbols-outlined ">Filter_list</span>Lists
+                        </li>
+                        <li
+                            class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
+                            <span class="material-symbols-outlined ">bookmark</span>Bookmarks
+                        </li>
+                        <li
+                            class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
+                            <span class="material-symbols-outlined ">group</span>Communities
+                        </li>
+                        <li
+                            class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
+                            <span class="material-symbols-outlined ">subscript</span>Premium
+                        </li>
+                        <li
+                            class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
+                            <span class="material-symbols-outlined ">person</span>Profile
+                        </li>
+                        <li
+                            class="flex justify-start items-center gap-3 w-fit hover:bg-gray-900 hover:cursor-pointer hover:rounded-full">
+                            <span class="material-symbols-outlined ">more_horiz</span>More
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <button class="rounded-full bg-blue-500 text-white px-4 py-2 w-52 mt-4">Post</button>
+                </div>
+                <div class="acc flex items-center mt-4">
+                    <img src="../images/bubu.jpeg" alt="" class="rounded-full h-8 w-8 mr-2 mt-7">
+                    <div>
+                        <h1 class="text-white font-bold mt-8">BhabaniShankar</h1>
+                        <p class="text-gray-700">@bhabani_00</p>
+                    </div>
+                    <span class="material-symbols-outlined ml-5">more_horiz</span>
+                </div>
+            </div>
+            <div class="w-full md:ml-20 md:w-[80%] border-[1px] border-x-gray-900 border-y-gray-900 mt-2">
+                <div
+                    class="homeSection flex justify-between items-center border-[1] border-x-gray-900 border-y-gray-900 h-14">
+                    <h1>For you</h1>
+                    <h1>Following</h1>
+                    <span class="material-symbols-outlined">settings</span>
+                </div>
+                <div class="border-y border-gray-900">
+                    <div
+                        class="second Whatishappenig border border-x-gray-900 border-y-gray-900 h-32 flex items-center justify-between">
+                        <div class="flex flex-col">
+                            <div class="flex items-center">
+                                <img src="../images/bubu.jpeg" alt="bhabani" class="w-6 h-6 rounded-full ml-2">
+                                <h1 class="ml-2">What is happening?!</h1>
+                            </div>
+                            <div class="icons flex ml-10 mt-12 gap-4 text-blue-500">
+                                <span class="material-symbols-outlined hover:cursor-pointer">image</span>
+                                <span class="material-symbols-outlined hover:cursor-pointer">gif_box</span>
+                                <span class="material-symbols-outlined hover:cursor-pointer">ballot</span>
+                                <span class="material-symbols-outlined hover:cursor-pointer">mood</span>
+                                <span class="material-symbols-outlined hover:cursor-pointer">pending_actions</span>
+                                <span class="material-symbols-outlined hover:cursor-pointer">location_on</span>
+                            </div>
+                        </div>
+                        <button class="text-white bg-blue-900 rounded-full ml-4 w-20 mt-20 mb-2 h-10 mr-2">Post</button>
+                    </div>
+                </div>
+                <div class="posts text-center text-blue-500 border border-y-gray-900 border-x-gray-900 h-12">
+                    <p class="mt-2">Show 70 Posts</p>
+                </div>
+                <div class="flex flex-col border border-x-gray-900 border-y-gray-900 h-30">
+                    <div class="flex items-center">
+                        <img src="../images/bubu.jpeg" alt="bhabani" class="w-6 h-6 rounded-full ml-2 mt-4">
+                        <h1 class="ml-2 mt-4">Bhabani </h1><span
+                            class="text-blue-500 mt-4 ml-2 material-symbols-outlined">
+                            verified
+                        </span>
+                        <p class="mt-4 ml-2 text-gray-700"> @bhabani_00 . April 01</p>
+                        <span class="material-symbols-outlined ml-56 mt-2">more_horiz</span>
+                    </div>
+                    <div>
+                        <p class="ml-10">Bootstrap or Tailwind CSS?</p>
+                    </div>
+                    <div class="icons flex ml-10 mt-12 gap-x-20 text-white">
+                        <span class="material-symbols-outlined  hover:text-blue-500 hover:cursor-pointer">
+                            quick_phrases
+                        </span>
+                        <span class="material-symbols-outlined  hover:text-green-800 hover:cursor-pointer">
+                            rebase
+                        </span>
+                        <span class="material-symbols-outlined  hover:text-red-700 hover:cursor-pointer">
+                            heart_check
+                        </span>
+                        <span class="material-symbols-outlined  hover:text-blue-500 hover:cursor-pointer">
+                            visibility
+                        </span>
+                        <div class="ml-28">
+                            <span class="material-symbols-outlined  hover:text-blue-500 hover:cursor-pointer">
+                                bookmark
+                            </span>
+                            <span class="material-symbols-outlined  hover:text-blue-500 hover:cursor-pointer">
+                                send
+                            </span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col border border-x-gray-900 border-y-gray-900 h-auto">
+                        <div class="flex items-center">
+                            <img src="../images/leeza.jpeg" alt="bhabani" class="w-6 h-6 rounded-full ml-2 mt-4">
+                            <h1 class="ml-2 mt-4">Leeza </h1><span
+                                class="text-blue-500 mt-4 ml-2 material-symbols-outlined">
+                                verified
+                            </span>
+                            <p class="mt-4 ml-2 text-gray-700"> @leeza_00 . April 02</p>
+                            <span class="material-symbols-outlined ml-56 mt-2">more_horiz</span>
+                        </div>
+                        <div>
+                            <p class="ml-10">Embracing every moment with a smile 😊 #SelfieSunday
+                                #PositiveVibes.......</p>
+                            <a href="" class="ml-10 text-blue-500 hover:underline">TranslatePost</a>
+                            <img src="../images/leeza.jpeg" alt="" class="mt-2">
+                        </div>
+                        <div class="mt-4 flex">
+                            <span class="text-gray-600 ml-2">9:48 AM · Apr 2, 2024</span>
+                            <span class="text-white ml-2">· 782.5K</span>
+                            <span class="ml-2">Views</span>
+                        </div>
+                        <div class="icons flex ml-10 mt-6 gap-x-20 text-white">
+                            <div class="flex items-center">
+                                <span
+                                    class="material-symbols-outlined hover:text-blue-500 hover:cursor-pointer">quick_phrases</span>
+                                <p class="ml-1">10.9K</p>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="material-symbols-outlined  hover:text-green-800 hover:cursor-pointer">
+                                    rebase
+                                </span>
+                                <p class="ml-1">9.9K</p>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="material-symbols-outlined  hover:text-red-700 hover:cursor-pointer">
+                                    heart_check
+                                </span>
+                                <p class="ml-1">4.9K</p>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="material-symbols-outlined  hover:text-blue-500 hover:cursor-pointer">
+                                    bookmark
+                                </span>
+                                <p class="ml-1">11K</p>
+                            </div>
+                            <div class="flex items-center mr-2">
+                                <span class="material-symbols-outlined  hover:text-blue-500 hover:cursor-pointer">
+                                    send
+                                </span>
+                                <p class="ml-1">23K</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col border border-x-gray-900 border-y-gray-900 h-auto">
+                        <div class="flex items-center">
+                            <img src="../images/niki.jpeg" alt="niki" class="w-6 h-6 rounded-full ml-2 mt-4">
+                            <h1 class="ml-2 mt-4">Nikita </h1><span
+                                class="text-blue-500 mt-4 ml-2 material-symbols-outlined">
+                                verified
+                            </span>
+                            <p class="mt-4 ml-2 text-gray-700"> @i_m_nikita . April 03</p>
+                            <span class="material-symbols-outlined ml-56 mt-2">more_horiz</span>
+                        </div>
+                        <div>
+                            <p class="ml-10">Sharing moments of authenticity and joy. 📸✨ #PersonalPerspectives
+                                #LifeUnfiltered.....</p>
+                            <a href="" class="ml-10 text-blue-500 hover:underline">TranslatePost</a>
+                            <img src="../images/niki.jpeg" alt="" class="mt-2">
+                        </div>
+                        <div class="mt-4 flex">
+                            <span class="text-gray-600 ml-2">3:00 PM · Apr 2, 2024</span>
+                            <span class="text-white ml-2">· 1M</span>
+                            <span class="ml-2">Views</span>
+                        </div>
+                        <div class="icons flex ml-10 mt-6 gap-x-20 text-white">
+                            <div class="flex items-center">
+                                <span
+                                    class="material-symbols-outlined hover:text-blue-500 hover:cursor-pointer">quick_phrases</span>
+                                <p class="ml-1">55.5K</p>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="material-symbols-outlined  hover:text-green-800 hover:cursor-pointer">
+                                    rebase
+                                </span>
+                                <p class="ml-1">23k</p>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="material-symbols-outlined  hover:text-red-700 hover:cursor-pointer">
+                                    heart_check
+                                </span>
+                                <p class="ml-1">11.9K</p>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="material-symbols-outlined  hover:text-blue-500 hover:cursor-pointer">
+                                    bookmark
+                                </span>
+                                <p class="ml-1">40K</p>
+                            </div>
+                            <div class="flex items-center mr-2">
+                                <span class="material-symbols-outlined  hover:text-blue-500 hover:cursor-pointer">
+                                    send
+                                </span>
+                                <p class="ml-1">10k</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-col border border-x-gray-900 border-y-gray-900 h-auto">
+                        <div class="flex items-center">
+                            <img src="../images/shakti.jpeg" alt="bhabani" class="w-6 h-6 rounded-full ml-2 mt-4">
+                            <h1 class="ml-2 mt-4">Shakti </h1><span
+                                class="text-blue-500 mt-4 ml-2 material-symbols-outlined">
+                                verified
+                            </span>
+                            <p class="mt-4 ml-2 text-gray-700"> @shaktishankar . April 04</p>
+                            <span class="material-symbols-outlined ml-56 mt-2">more_horiz</span>
+                        </div>
+                        <div>
+                            <p class="ml-10">Capturing moments that define me. Here's a glimpse into my world.
+                                #PersonalMoments #LifeThroughLenses........</p>
+                            <a href="" class="ml-10 text-blue-500 hover:underline">TranslatePost</a>
+                            <img src="../images/shakti.jpeg" alt="" class="mt-2">
+                        </div>
+                        <div class="mt-4 flex">
+                            <span class="text-gray-600 ml-2">10:00 AM · Apr 4, 2024</span>
+                            <span class="text-white ml-2">· 100K</span>
+                            <span class="ml-2">Views</span>
+                        </div>
+                        <div class="icons flex ml-10 mt-6 gap-x-20 text-white">
+                            <div class="flex items-center">
+                                <span
+                                    class="material-symbols-outlined hover:text-blue-500 hover:cursor-pointer">quick_phrases</span>
+                                <p class="ml-1">23.9K</p>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="material-symbols-outlined  hover:text-green-800 hover:cursor-pointer">
+                                    rebase
+                                </span>
+                                <p class="ml-1">3.6K</p>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="material-symbols-outlined  hover:text-red-700 hover:cursor-pointer">
+                                    heart_check
+                                </span>
+                                <p class="ml-1">5.9K</p>
+                            </div>
+                            <div class="flex items-center">
+                                <span class="material-symbols-outlined  hover:text-blue-500 hover:cursor-pointer">
+                                    bookmark
+                                </span>
+                                <p class="ml-1">1K</p>
+                            </div>
+                            <div class="flex items-center mr-2">
+                                <span class="material-symbols-outlined  hover:text-blue-500 hover:cursor-pointer">
+                                    send
+                                </span>
+                                <p class="ml-1">2K</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="third w-full md:w-[50%] ml-10 border-[1px] border-x-gray-900 border-y-gray-900">
+                <div
+                    class="search m-3 bg-gray-900 rounded-lg shadow-lg hover:shadow-xl transition duration-300 relative">
+                    <input type="search" placeholder="Search"
+                        class="w-full rounded-full bg-gray-950 text-white px-8 py-2 focus:outline-none">
+                    <span
+                        class="material-symbols-outlined text-white absolute left-3 top-1/2 transform -translate-y-1/2">search</span>
+                </div>
+
+                <div class="subscribetopremium bg-gray-900 rounded-lg shadow-lg p-4 mt-4">
+                    <h1 class="text-xl text-white">Subscribe to Premium</h1>
+                    <h2 class="text-white">Subscribe to unlock new features and if eligible, receive a share of ads
+                        revenue.
+                    </h2>
+                    <button
+                        class="button bg-blue-500 text-white rounded-full mt-2 w-1/2 hover:bg-blue-600 transition duration-300 h-10">Subscribe</button>
+                </div>
+
+                <div class="whtshappenning bg-gray-900 rounded-lg shadow-lg p-4 mt-4">
+                    <h1 class="text-xl text-white mt-5">What's happening</h1>
+                    <div class="tags mt-4 space-y-4">
+                        <div class="tag1 flex items-center mt-4">
+                            <div>
+                                <h2 class="text-white text-xl font-bold hover:cursor-pointer">#OnePlusNordCE4</h2>
+                                <div class="flex flex-col text-gray-500">
+                                    <p>Launching today at 6:30 PM</p>
+                                    <p>Promoted by OnePlus India</p>
+                                </div>
+                            </div>
+                            <span
+                                class="material-symbols-outlined ml-auto text-gray-500 hover:cursor-pointer">more_horiz</span>
+                        </div>
+
+                        <div class="tag1 flex items-center mt-4">
+                            <div>
+                                <div class="flex flex-col text-gray-500">
+                                    <p>Sports . Trending</p>
+                                </div>
+                                <h2 class="text-white text-xl font-bold hover:cursor-pointer">#Mumbai Indians</h2>
+                                <div class="flex flex-col text-gray-500">
+                                    <p>Trending with hardik pandya</p>
+                                </div>
+                            </div>
+                            <span
+                                class="material-symbols-outlined ml-auto text-gray-500 hover:cursor-pointer">more_horiz</span>
+                        </div>
+                        <div class="tag1 flex items-center mt-4">
+                            <div>
+                                <div class="flex flex-col text-gray-500">
+                                    <p>Sports . Trending</p>
+                                </div>
+                                <h2 class="text-white text-xl font-bold hover:cursor-pointer">#Rohit</h2>
+                                <div class="flex flex-col text-gray-500">
+                                    <p>145K Posts</p>
+                                </div>
+                            </div>
+                            <span
+                                class="material-symbols-outlined ml-auto text-gray-500 hover:cursor-pointer">more_horiz</span>
+                        </div>
+                        <div class="tag1 flex items-center mt-4">
+                            <div>
+                                <div class="flex flex-col text-gray-500">
+                                    <p>Sports . Trending</p>
+                                </div>
+                                <h2 class="text-white text-xl font-bold hover:cursor-pointer">#Riyan Parag</h2>
+                                <div class="flex flex-col text-gray-500">
+                                    <p>Trending with Rajasthan Royals</p>
+                                </div>
+                            </div>
+                            <span
+                                class="material-symbols-outlined ml-auto text-gray-500 hover:cursor-pointer">more_horiz</span>
+                        </div>
+                        <div class="tag1 flex items-center mt-4">
+                            <div>
+                                <div class="flex flex-col text-gray-500">
+                                    <p>Trending in india</p>
+                                </div>
+                                <h2 class="text-white text-xl font-bold hover:cursor-pointer">#Duck</h2>
+                                <div class="flex flex-col text-gray-500">
+                                    <p>75K Posts</p>
+                                </div>
+                            </div>
+                            <span
+                                class="material-symbols-outlined ml-auto text-gray-500 hover:cursor-pointer">more_horiz</span>
+                        </div>
+                    </div>
+                    <div class="showmore text-center">
+                        <span class="text-blue-500 text-bold cursor-pointer hover:underline">show more</span>
+                    </div>
+                </div>
+                <div class="whotofollow bg-gray-900 rounded-lg shadow-lg p-4 mt-4">
+                    <h1 class="text-xl text-white mt-5">Who to follow</h1>
+                    <div class="aurdino flex mt-4 items-center">
+                        <img src="../images/leeza.jpeg" alt="Leeza" class="w-6 h-6 rounded-full">
+                        <div class="ml-2">
+                            <h1 class="text-white hover:cursor-pointer">Leeza </h1>
+                            <p class="text-gray-400 hover:cursor-pointer">@leeza</p>
+                        </div>
+                        <span class="text-blue-500 -mt-5 ml-4 material-symbols-outlined">
+                            verified
+                        </span>
+                        <button
+                            class="bg-white text-xl text-black rounded-full ml-auto hover:bg-gray-200 transition duration-300 w-20 h-8">Follow</button>
+                    </div>
+                    <div class="aurdino flex mt-4 items-center">
+                        <img src="../images/niki.jpeg" alt="Nikita" class="w-6 h-6 rounded-full">
+                        <div class="ml-2">
+                            <h1 class="text-white hover:cursor-pointer">Nikita</h1>
+                            <p class="text-gray-400 hover:cursor-pointer">@nikita</p>
+                        </div>
+                        <span class="text-blue-500 -mt-5 ml-4 material-symbols-outlined">
+                            verified
+                        </span>
+                        <button
+                            class="bg-white text-xl text-black rounded-full ml-auto hover:bg-gray-200 transition duration-300 w-20 h-8">Follow</button>
+                    </div>
+                    <div class="aurdino flex mt-4 items-center">
+                        <img src="../images/shakti.jpeg" alt="Shakti" class="w-6 h-6 rounded-full">
+                        <div class="ml-2">
+                            <h1 class="text-white hover:cursor-pointer">Shakti</h1>
+                            <p class="text-gray-400 hover:cursor-pointer">@shakti</p>
+                        </div>
+                        <span class="text-blue-500 -mt-5 ml-4 material-symbols-outlined">
+                            verified
+                        </span>
+                        <button
+                            class="bg-white text-xl text-black rounded-full ml-auto hover:bg-gray-200 transition duration-300 w-20 h-8">Follow</button>
+                    </div>
+
+                    <!-- Repeat similar structure for other profiles -->
+                    <div class="showmore text-center mt-4">
+                        <span class="text-blue-500 text-bold cursor-pointer hover:underline">show more</span>
+                    </div>
+                </div>
+                <div class="end bg-gray-900 rounded-lg shadow-lg p-4 mt-4">
+                    <div class="text-center">
+                        <a href="#" class="text-sm hover:underline text-white mr-2">Terms of Service</a>
+                        <a href="#" class="text-sm hover:underline text-white mr-2">Privacy Policy</a>
+                        <a href="#" class="text-sm hover:underline text-white mr-2">Cookie Policy</a>
+                        <a href="#" class="text-sm hover:underline text-white mr-2">Accessibility</a>
+                        <a href="#" class="text-sm hover:underline text-white mr-2">Ads info</a>
+                        <a href="#" class="text-sm hover:underline text-white mr-2">More...</a>
+                        <a href="#" class="text-sm hover:underline text-white">&copy; 2024 X Corp.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
